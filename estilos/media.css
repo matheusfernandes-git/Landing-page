@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 200px) and (max-width: 768px){
+@media screen and (min-width: 200px) and (max-width: 767px){
 
     #logo{
         width: 3.3em;
@@ -84,6 +84,8 @@
     #content{
         margin-top: 50px;
     }
+
+   
 
     #content > h1{
         font-size: 2.5em;

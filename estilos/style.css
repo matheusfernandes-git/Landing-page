@@ -4,6 +4,7 @@
 
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -47,12 +48,16 @@ main{
     position: relative;
     width: 100vw;
     height: 100vh;
-    margin: auto;  
+    margin: auto; 
 }
 
 #content{
     width: 100%;
     padding: 10px;
+}
+
+#content > form{
+    width: 80%;
 }
 
 #content > h1{
@@ -100,16 +105,13 @@ main{
     height: 100%;
 }
 
-#button{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-button{
+form > input[type=submit]{
+    display: block;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    width: 15em;
+    width: 45%;
+    margin: auto;
+    margin-top: 70px;
     font-size: 1.2em;
     border-radius: 10px;
     border: none;
@@ -118,6 +120,6 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+form > input:hover[type=submit]{
     background-color: #2d2e33;
 }

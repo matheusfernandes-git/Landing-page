@@ -25,7 +25,7 @@
     }
     
     #content > h1{
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
     #content > p{
@@ -35,7 +35,7 @@
     form > input[type=submit]{
         width: 100%;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     
     #page{
@@ -47,7 +47,7 @@
 
     #page > #image{
         width: 100%;
-        height: 45%;
+        height: 48%;
         margin-bottom: 40px;
         border-radius: 10px 10px 0px 0px;
     }

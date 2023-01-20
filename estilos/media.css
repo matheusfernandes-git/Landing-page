@@ -1,18 +1,86 @@
-@media screen and (min-width: 300px) and (max-width: 768px){
+@media screen and (min-width: 500px) and (max-width: 768px){
+
+    #logo{
+        width: 3.3em;
+        margin-left:50%;
+    }
+
+    #menu > ul > li{
+        display: none;
+        font-size: 0.9em;
+        margin: 10px;
+    }
+
+    #content{
+       padding: 10px;
+    }
     
     #content > h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     
     #page{
-        width: 400px;
-        height: 700px;
+        left: 8%;
+        top: 4%;
+        width: 85vw;
+        height: 90vh;
     }
 
     #page > #image{
-        background-position: center center;
-        background-size: cover;
         width: 100%;
-        height: 300px;
+        height: 50%;
+        margin-bottom: 40px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    #logo{
+        width: 3.5em;
+    }
+
+    #menu > ul{
+        margin-right: 0px;
+    }
+
+    #menu > ul > li{
+        font-size: 0.9em;
+    }
+
+    main{
+        max-width: 992px;
+    }
+
+    #page{
+        position: absolute;
+        left: 4%;
+        top: 15%;
+        width: 94%;
+        height: 50%;
+    }
+
+    #page > #image{
+        width: 50%;
+        height: 100%;
+    }
+
+    #content{
+        margin-top: 60px;
+    }
+
+    #content > h1{
+        font-size: 2.5em;
+        margin: 0px;
+    }
+
+    #content > p{
+        font-size: 1em;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    button{
+        width: 15em;
     }
 }

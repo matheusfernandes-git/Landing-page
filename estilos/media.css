@@ -3,7 +3,7 @@
 
     #logo{
         width: 3.3em;
-        margin-left:50%;
+        margin-left: 45%;
     }
 
     #menu > ul > li{
@@ -39,7 +39,7 @@
     }
     
     #page{
-        left: 9%;
+        left: 7%;
         top: 3%;
         width: 85vw;
         height: 95vh;
